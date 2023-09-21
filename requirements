@@ -1,0 +1,5 @@
+georinex
+matplotlib
+pandas==0.25.3
+numpy==1.19.5
+xarray==0.12.1

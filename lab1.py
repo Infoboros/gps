@@ -53,7 +53,7 @@ def get_diffs(second, first, y_range):
 ionfree_first_file, widelane_first_file = get_ionfree_and_widelane(OBS_PATH_FIRST)
 ionfree_second_file, widelane_second_file = get_ionfree_and_widelane(OBS_PATH_SECOND)
 
-ys = range(500, 1500)
+ys = range(500, len(ionfree_first_file))
 plt.plot(
     ys,
     get_diffs(
